@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Météo avec prévisions</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+  <div class="container">
+    <input type="text" id="cityInput" placeholder="Entrez une ville" />
+    <button onclick="getWeather()">Afficher la météo</button>
+    <button id="toggleForecastBtn" style="display:none;">Afficher la prévision 5 jours</button>
+
+    <div id="weatherResult"></div>
+    <div id="forecastContainer"></div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
